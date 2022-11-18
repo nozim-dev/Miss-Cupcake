@@ -1859,7 +1859,7 @@ body {
   .HeadSection__title {
     font-size: 60px;
     height: auto;
-    left: calc(50% - 168px px);
+    left: calc(50% - 168px);
     position: absolute;
     text-align: left;
     top: calc(50% - 157px);

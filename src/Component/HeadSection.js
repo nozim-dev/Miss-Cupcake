@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const HeadSection = () => {
   let img1 = process.env.PUBLIC_URL + "/image/1img.png";

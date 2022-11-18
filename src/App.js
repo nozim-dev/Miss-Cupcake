@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import BarLoader from "react-spinners/BarLoader";
 import { css } from "@emotion/react";
 import { Route, Routes } from "react-router-dom";
 import Shop from "./Component/Shop";
 import OurStory from "./Component/OurStory";
-import WhyMisscupcake from "./Component/WhyMisscupcake";
+// import WhyMisscupcake from "./Component/WhyMisscupcake";
 import CheckOut from "./Component/CheckOut";
 import CheckOutConfirmed from "./Component/CheckOutConfirmed";
-import Card from "./Component/Card";
+// import Card from "./Component/Card";
 
 function App() {
-  const [loading, setLoading] = useState();
+  const [loading] = useState();
 
   // useEffect(() => {
   //   setLoading(true);

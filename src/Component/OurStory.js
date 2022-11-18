@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import "../App.css";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const OurStory = () => {
   let bg_desktop = process.env.PUBLIC_URL + "/image/bg_OurStory_desktop.png";
